@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>KeepAlive</key>
-	<false/>
-	<key>Label</key>
-	<string>Bing! Daily Wallpaper</string>
-	<key>ProgramArguments</key>
-	<array>
-		<string>/usr/local/bin/bing-daily-wallpaper</string>
-	</array>
-	<key>RunAtLoad</key>
-	<true/>
-	<key>StandardErrorPath</key>
-	<string>/tmp/bing_daily_wallpaper.out</string>
-	<key>StandardOutPath</key>
-	<string>/tmp/bing_daily_wallpaper.out</string>
-	<key>StartCalendarInterval</key>
-	<array>
-		<dict>
-			<key>Hour</key>
-			<integer>0</integer>
-			<key>Minute</key>
-			<integer>5</integer>
-		</dict>
-	</array>
-</dict>
+  <dict>
+    <key>KeepAlive</key>
+    <false/>
+    <key>Label</key>
+    <string>Bing! Daily Wallpaper</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/bing-daily-wallpaper.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/bing_daily_wallpaper.out</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/bing_daily_wallpaper.out</string>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+        <key>Hour</key>
+        <integer>0</integer>
+        <key>Minute</key>
+        <integer>5</integer>
+      </dict>
+    </array>
+  </dict>
 </plist>
